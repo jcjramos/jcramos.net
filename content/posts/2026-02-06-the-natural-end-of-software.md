@@ -1,6 +1,6 @@
 +++
 date = '2026-02-06T20:44:45Z'
-draft = true
+draft = false
 title = 'The Natural End of Software Development: Speaking English'
 tags = ["AI","SoftwareEngineering","TechLeadership","Abstraction"]
 categories = ["AI","software"]
