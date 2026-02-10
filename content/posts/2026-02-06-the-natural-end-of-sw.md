@@ -26,5 +26,5 @@ If I can describe a complex system in precise English and a model can generate t
 **Why This is Good News**
 When you remove the "syntax tax," you are left with the only thing that actually matters: System Design.
 At 500-rated chess, you lose because you hang pieces. At 2000-rated chess, you win because you have a better long-term plan. Software is moving into its "Grandmaster" era. We are no longer struggling with where the semicolon goes; we are finally free to focus on what we are building and why it matters for the user.
-Software development isn't dying. It’s finally becoming a conversation.
+Software development isn't dying. It’s finally becoming a conversation - Humans will be in the loop for a very long time. 
 
