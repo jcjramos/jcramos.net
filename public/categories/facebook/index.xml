@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Facebook on Ramos on Software</title>
+    <link>http://localhost:1313/categories/facebook/</link>
+    <description>Recent content in Facebook on Ramos on Software</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Mar 2018 13:23:10 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/facebook/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Read Last Week - Everybody loves Facebook !</title>
+      <link>http://localhost:1313/posts/2018-03-26-read-last-week-everybody-loves-facebook/</link>
+      <pubDate>Tue, 27 Mar 2018 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2018-03-26-read-last-week-everybody-loves-facebook/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt; &lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

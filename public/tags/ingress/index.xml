@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ingress on Ramos on Software</title>
+    <link>http://localhost:1313/tags/ingress/</link>
+    <description>Recent content in Ingress on Ramos on Software</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Dec 2018 13:23:10 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ingress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Ingress triology</title>
+      <link>http://localhost:1313/posts/2018-12-14-expose-kubernertes-services/</link>
+      <pubDate>Fri, 14 Dec 2018 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2018-12-14-expose-kubernertes-services/</guid>
+      <description>&lt;p&gt;Deploying http services in a Kubernetes cluster can be a bit challenging, although the basic principles are simple it is not always easy to manage all the details.  Docker &amp;amp; Kubernetes were designed with isolation in mind  ( they are called containers for a reason ).
+You need to understand the Ingress triology properlly :
+Ingress -&amp;gt; Service -&amp;gt; Containers.&lt;/p&gt;
+&lt;h2 id=&#34;the-container&#34;&gt;The Container&lt;/h2&gt;
+&lt;p&gt;The fist step is to have the container running, inside the container there is a service running that accepts HTTP connections – let’s say tomcat running a webserver.
+The tricky part is that it is not enough to have the service running inside the container.
+Imagine that you ssh to the container and check the service, lile&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

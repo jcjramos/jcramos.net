@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>How do I know if a particular Web site is secure ? HTTP vs HTTPs | Ramos on Software</title>
+<meta name="keywords" content="">
+<meta name="description" content="The short answer is you don’t know … there is no simple ways to check, web infrastructure these days is complex and there is no public reporting of security practices used or even testing reports. The web owner can ( and will if they care about security ) use some kind of vulnerability testing, but it’s actually not nice to test 3rd party sites for vulnerabilities and generally people don’t make these public.">
+<meta name="author" content="jcarlosr">
+<link rel="canonical" href="http://localhost:1313/posts/2018-03-09-how-do-i-know-if-a-particular-web-site-is-secure-part-1-http-vs-https/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.a29c24210eb31d9ce56f669c66a35c9c51b17376b7764e336a49af7dec914cf0.css" integrity="sha256-opwkIQ6zHZzlb2acZqNcnFGxc3a3dk4zakmvfeyRTPA=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/2018-03-09-how-do-i-know-if-a-particular-web-site-is-secure-part-1-http-vs-https/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Ramos on Software (Alt + H)">Ramos on Software</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/contact/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      How do I know if a particular Web site is secure ? HTTP vs HTTPs
+    </h1>
+    <div class="post-meta"><span title='2018-03-09 13:23:10 +0100 +0100'>March 9, 2018</span>&nbsp;·&nbsp;<span>jcarlosr</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p><!-- raw HTML omitted -->The short answer is you don’t know … there is no simple ways to check, web infrastructure these days is complex and there is no public reporting of security practices used or even testing reports. The web owner can ( and will if they care about security ) use some kind of vulnerability testing, but it’s actually not nice to test 3rd party sites for vulnerabilities and generally people don’t make these public.<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted -->Anyway there are some things you can check, these will give you at least some guidelines if the people maintaining the particular service care at least a little bit about security.<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted -->The site uses HTTP instead of HTTPS ?   runway then … you can check this is the browser as a HTTPS site is typically marked as secure, some browsers present it as a padlock icon.  If the padlock doesn&rsquo;t show up it means HTTP is used, the connection is not encrypted and there are a lot of potential issues with that site. <!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted -->A basic issue is that as information is not encrypted the packages traveling back and forward can be sniffed and any  information that you provide is basically public. <!-- raw HTML omitted --><!-- raw HTML omitted -->You can also be victim of a “sniffing” attack, typically the target of this attack is the user web browser is relatively simple to mount on a public unencrypted WIFI network when you use HTTPs.  Traffic is visible and a attacker can modify it and do something with your browser.<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted -->Thus something very simple like that tells your browser to display &ldquo;hello world&rdquo;: <!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted -->&lt;<!-- raw HTML omitted --><!-- raw HTML omitted -->html<!-- raw HTML omitted --><!-- raw HTML omitted -->&gt;<!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --> <!-- raw HTML omitted -->&lt;<!-- raw HTML omitted --><!-- raw HTML omitted -->body<!-- raw HTML omitted --><!-- raw HTML omitted -->&gt;<!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --> <!-- raw HTML omitted -->Hello world<!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --> <!-- raw HTML omitted -->&lt;/<!-- raw HTML omitted --><!-- raw HTML omitted -->body<!-- raw HTML omitted --><!-- raw HTML omitted -->&gt;<!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --> <!-- raw HTML omitted -->&lt;/<!-- raw HTML omitted --><!-- raw HTML omitted -->html<!-- raw HTML omitted --><!-- raw HTML omitted -->&gt;<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted -->Might became :<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted -->&lt;<!-- raw HTML omitted --><!-- raw HTML omitted -->html<!-- raw HTML omitted --><!-- raw HTML omitted -->&gt;<!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --> <!-- raw HTML omitted -->&lt;<!-- raw HTML omitted --><!-- raw HTML omitted -->body<!-- raw HTML omitted --><!-- raw HTML omitted -->&gt;<!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --> <!-- raw HTML omitted -->Hello world<!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --> <!-- raw HTML omitted -->&lt;script&gt;some hidden bitcoin mining code here :-)<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->&lt;/script&gt;<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted -->&lt;/<!-- raw HTML omitted --><!-- raw HTML omitted -->body<!-- raw HTML omitted --><!-- raw HTML omitted -->&gt;<!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --><!-- raw HTML omitted -->&lt;/<!-- raw HTML omitted --><!-- raw HTML omitted -->html<!-- raw HTML omitted --><!-- raw HTML omitted -->&gt;<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted -->There are also a lot of known vulnerabilities with WIFI, thus using HTTP in an encrypted WIFI network is not much better. <!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted -->Other problem is <!-- raw HTML omitted --><!-- raw HTML omitted -->spoofing; for example you click a link to my.bank.com that is actually a link to  fake.bank.com that misleads you to provide your user name and password.<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted -->HTTP is definitely not ok for any site that requires you to provide some information, like user name or passwords. For more simple sites that only require browsing, like a blog, use with moderation. <!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted -->Btw: If you would like to know more about HTTPS check this wonderful <!-- raw HTML omitted -->article about HTTPS and carrier pigeons by Andrea Zanin<!-- raw HTML omitted -->. <!-- raw HTML omitted --></p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Ramos on Software</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

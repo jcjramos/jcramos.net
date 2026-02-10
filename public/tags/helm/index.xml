@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Helm on Ramos on Software</title>
+    <link>http://localhost:1313/tags/helm/</link>
+    <description>Recent content in Helm on Ramos on Software</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 Jan 2019 13:23:10 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/helm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>More About Helm - Tips</title>
+      <link>http://localhost:1313/posts/2019-01-21-more-about-helm-tips/</link>
+      <pubDate>Mon, 21 Jan 2019 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2019-01-21-more-about-helm-tips/</guid>
+      <description>&lt;p&gt;Helm is one of the best tools available to simplify your kubernetes development. In this post I’ll be adding some tips that might help you in the development of your helm charts.&lt;/p&gt;
+&lt;p&gt;Btw, you migth like to see &lt;a href=&#34;../2018-12-19-about-helm/&#34;&gt;this previous post&lt;/a&gt; and eventually [this one] (../2019-01-04-more-about-helm-values/)&lt;/p&gt;
+&lt;h2 id=&#34;tip-1--files-in-configmaps&#34;&gt;Tip 1 – Files in configmaps&lt;/h2&gt;
+&lt;p&gt;There are cases where you will need to move existing configuration files to config maps, a hard working solution is to just type in the whole file with the proper config map indentation.
+A more practical solution is to use helm .Files.Glob command. This command will map the content of files in a specific directory to your config map.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The logging triology - ELK Elasticsearch &#43; Logstash &#43; Kibana</title>
+      <link>http://localhost:1313/posts/2019-01-08-the-log-triollogy/</link>
+      <pubDate>Tue, 08 Jan 2019 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2019-01-08-the-log-triollogy/</guid>
+      <description>&lt;p&gt;One of the side effects of a microservices architecture is that checking logs soon becomes a problem. At the beginning of the process, when you think about containerizing an application, it seems simple and straightforward – you just log to stdout and docker or kubernetes handle it. But then &amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;where-is-my-log-&#34;&gt;Where is my log ?&lt;/h2&gt;
+&lt;p&gt;The number of different services &amp;amp; service instances rapidly explodes and then it becomes really difficult to find a particular log and to troubleshoot the misbehaviour of a micro-service. The solution is to add a log management application, something to store your logs and to allow you to search through them.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>More About Helm - Values</title>
+      <link>http://localhost:1313/posts/2019-01-04-more-about-helm-values/</link>
+      <pubDate>Fri, 04 Jan 2019 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2019-01-04-more-about-helm-values/</guid>
+      <description>&lt;p&gt;Manage deployments is a import concern when creating a microservices based application, given the typical huge number of services involved and the possible variations you need a way to keep complexity under control.
+Helm can be a usefull tool, besides been a very cool way to define dependencies ( &lt;a href=&#34;../2018-12-19-about-helm/&#34;&gt;see this previous post&lt;/a&gt; ),  Helm introduces an interesting concept called values ( not quite original, but implemented in a nice way ). Values allows you to redefine parts your kubernetes yaml (*) files on deployment time, thus allowing more flexibility to your application and, if done right, simplify the deployment.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About Helm</title>
+      <link>http://localhost:1313/posts/2018-12-19-about-helm/</link>
+      <pubDate>Wed, 19 Dec 2018 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2018-12-19-about-helm/</guid>
+      <description>&lt;p&gt;Microservices are supposed to be small and dedicated, the issue when you move an application to a microservices based architecture is that you quickly get many of them. Dealing with each service individually becomes much easier as they get more “micro”, but deal with the whole bunch can be a nightmare.
+Look at the example bellow, in the 1st interaction of a typical application it became something like this :&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;+-------------------------+        +-------------------------+
+|     typical-frontend    |        |      typical-backend    |
+|                         |        |                         |
++-------------------------+        +-------------------------+
+                                                              
++-------------------------+        +-------------------------+
+|     typical-database    |        |      typical-interf     |
+|                         |        |                         |
++-------------------------+        +-------------------------+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;But then developers became more familiar with microservices, start splitting them in more specialized tasks and it became this :&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

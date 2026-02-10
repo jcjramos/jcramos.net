@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Product on Ramos on Software</title>
+    <link>http://localhost:1313/categories/product/</link>
+    <description>Recent content in Product on Ramos on Software</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 Dec 2019 13:23:10 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/product/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The subtle art of saying no</title>
+      <link>http://localhost:1313/posts/2019-12-14-the-subtle-art-of-saying-no---copy/</link>
+      <pubDate>Tue, 24 Dec 2019 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2019-12-14-the-subtle-art-of-saying-no---copy/</guid>
+      <description>&lt;p&gt;I’ve been wondering a lot about the importance of saying no recently:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Personally I’ve been trying to focus on important things and say no to other stuff that ends up consuming a lot of energy but is not that relevant.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Professionally as a Product Owner I got to say no a lot ! actually I think the art to say no is one of the most important characteristics of a good PO.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

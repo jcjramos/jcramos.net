@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Ruminations on the post pandemic IT industry in Portugal | Ramos on Software</title>
+<meta name="keywords" content="portugal, software">
+<meta name="description" content="In the recent decades the business model for the IT industry in Portugal was mostly a nearshoring model, much of the industry profits from the difference between IT salaries in Portugal vs central Europe. Knowing that the average salary in Portugal is roughly 50% lower than Germany and it’s just 1h time difference, it’s easy to understand that this can be a very lucrative model.
+Things start to change during the Portuguese debt crisis during the early 2010’s, due to the dim opportunities at home many Portuguese youngsters moved to other European countries – moving abroad was particularly easy for the “IT crowd” given that their skills were in high demand abroad and usually it’s not a job requirement to know any other language besides English.  This together with the fact that Portugal is a member of the EU and people can basically just decide to move other country and work there without much hassle.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/posts/2021-03-29-portuguese-it/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.a29c24210eb31d9ce56f669c66a35c9c51b17376b7764e336a49af7dec914cf0.css" integrity="sha256-opwkIQ6zHZzlb2acZqNcnFGxc3a3dk4zakmvfeyRTPA=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/2021-03-29-portuguese-it/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Ramos on Software (Alt + H)">Ramos on Software</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/contact/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Ruminations on the post pandemic IT industry in Portugal
+    </h1>
+    <div class="post-meta"><span title='2021-03-23 13:23:10 +0100 +0100'>March 23, 2021</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>In the recent decades the business model for the IT industry in Portugal was mostly a nearshoring model, much of the industry profits from the difference between IT salaries in Portugal vs central Europe. Knowing that the average salary in Portugal is roughly 50% lower than Germany and it’s just 1h time difference, it’s easy to understand that this can be a very lucrative model.</p>
+<p>Things start to change during the Portuguese debt crisis during the early 2010’s, due to the dim opportunities at home many Portuguese youngsters moved to other European countries – moving abroad was particularly easy for the “IT crowd” given that their skills were in high demand abroad and usually it’s not a job requirement to know any other language besides English.  This together with the fact that Portugal is a member of the EU and people can basically just decide to move other country and work there without much hassle.</p>
+<p>The emigration numbers were high but never high enough to significantly disrupt the industry, moving abroad is not for everyone and with time tired of living in a diferent country/culture with a lousy weather many did come back. Salaries in Portugal are lower but cost of live is also lower, an IT salary can easily be 2 or 3 times the average and you can still make a  good living here.</p>
+<p>But now a diferent trend seems to emerge, I don’t know the exact dimension, but seems to be getting significative. Now what happens is that the IT professionals are “nearshoring themselves”, basically working directly ( and remotely ) to European companies abroad. Seems a win/win situation,  companies get skilled people in a dificult market, they are already remote, so it’s not a big deal if your new employee is in Portugal - anyway he/she can travel to your office in central Europe in a few hours.  And people get a German or English wage with a Portuguese cost of living.</p>
+<p>No one knows what will be of the post pandemic world, bellow some of my guesses If this trend continues :</p>
+<ul>
+<li>Typical Portuguese “consultancy” companies will have an hard time recruiting, many might close</li>
+<li>Others might adapt by hiring remotely also, maybe “lusoshoring” ( outsourcing to lower cost Portuguese speaking countries like Brazil ? )</li>
+<li>In Portugal we will have a high number of well paid ( by local terms ) IT professionals, although this is definitely good news for the involved ( and for many business ) it might be messy in terms of social cohesion.</li>
+<li>Additionally a high number of “digital nomads” or just other IT people from diferent European countries working remotely might relocate to Portugal given the good climate and relatively safe environment.</li>
+<li>The current IT industry in Portugal is mostly focused in Lisbon and Porto, with a few companies in Aveiro, Braga or Coimbra. With time remote professionals might be more widely spread through the country.</li>
+</ul>
+<p>Likelly the most relevant changes will be others that we do now forsee rigth now. Time will tell.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/portugal/">Portugal</a></li>
+      <li><a href="http://localhost:1313/tags/software/">Software</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Ramos on Software</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

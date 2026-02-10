@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Telco on Ramos on Software</title>
+    <link>http://localhost:1313/tags/telco/</link>
+    <description>Recent content in Telco on Ramos on Software</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Sep 2019 13:23:10 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/telco/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Telco ML</title>
+      <link>http://localhost:1313/posts/2019-09-06-telco-ml-p1/</link>
+      <pubDate>Fri, 06 Sep 2019 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2019-09-06-telco-ml-p1/</guid>
+      <description>&lt;p&gt;While having some training on machine learning, I’ve been thinking in how it could be applied to telco software.&lt;/p&gt;
+&lt;p&gt;There is a huge array of equipment necessary to enable you to use your mobile phone with minimal issues, your operator has lots of radio equipment spread around that enables your phone to communicate with the network and a core network that enables the data to travel around ( this is of course a huge simplification ).
+Lot’s of equipment spread in larger areas means of course lot’s of problems, there are the obvious equipment malfunctions, there are power breakdowns and even more “unexpected” events like someone stealing a network antenna.
+Telco operators employ lot’s of people and use sophisticated software to ensure that their systems are functional, this is a growing challenge as more and more equipment is necessary to support newer network standards like 5G.
+Several functions of the Telco OSS systems, [ OSS meaning Operations Support System ] ( &lt;a href=&#34;https://en.wikipedia.org/wiki/Operations_support_system&#34;&gt;https://en.wikipedia.org/wiki/Operations_support_system&lt;/a&gt; ) not Open Source Software, involve something like :&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My favorite BuzzWords for 2018</title>
+      <link>http://localhost:1313/posts/2018-12-21-favorite-buzzwords/</link>
+      <pubDate>Fri, 21 Dec 2018 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2018-12-21-favorite-buzzwords/</guid>
+      <description>&lt;p&gt;Techies love BuzzWords, every year there is new popular technology or concept that everyone talks about,  soon these fall in to oblivion and are replaced by new trends. Not all the Buzzwords referrer to completely useless stuff, some concepts really got past the Buzz part and became really useful parts of our lives, but eventually people got tired to discuss them, or they became too common to be interesting ( I guess Blog was a buzzword a few years ago ).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

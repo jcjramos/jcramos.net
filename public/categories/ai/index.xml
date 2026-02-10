@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AI on Ramos on Software</title>
+    <link>http://localhost:1313/categories/ai/</link>
+    <description>Recent content in AI on Ramos on Software</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Feb 2026 20:44:45 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Natural End of Software Development: Speaking English</title>
+      <link>http://localhost:1313/posts/2026-02-06-the-natural-end-of-sw/</link>
+      <pubDate>Fri, 06 Feb 2026 20:44:45 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2026-02-06-the-natural-end-of-sw/</guid>
+      <description>&lt;p&gt;The Natural End of Software Development: Speaking English&lt;/p&gt;
+&lt;p&gt;Lately, my feed is full of panic about AI &amp;ldquo;replacing&amp;rdquo; software developers. The narrative is always the same: “If a machine can write the code, why do they need us?”
+This fear stems from a misunderstanding of what we’ve actually been doing for the last 70 years. We weren&amp;rsquo;t hired to be &amp;ldquo;syntax experts&amp;rdquo;; we were hired to be translators.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The History of Compression&lt;/strong&gt;
+Software development has always been a game of reducing the friction between a human thought and a machine&amp;rsquo;s execution. We’ve just been climbing a ladder of abstraction:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

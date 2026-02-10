@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>E-Government on Ramos on Software</title>
+    <link>http://localhost:1313/categories/e-government/</link>
+    <description>Recent content in E-Government on Ramos on Software</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Aug 2018 13:23:10 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/e-government/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>E-Nightmare</title>
+      <link>http://localhost:1313/posts/2018-08-24-e-nightmare/</link>
+      <pubDate>Fri, 24 Aug 2018 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2018-08-24-e-nightmare/</guid>
+      <description>&lt;p&gt;“E-Government” has been quite a trendy buzzword all around Europe, according to the UN E-Government survey Portugal &lt;!-- raw HTML omitted --&gt;ranks 29 in worldwide E-Government services&lt;!-- raw HTML omitted --&gt; which is not great but not too bad either. For sake of comparison number 1 is Denmark, Belgium is 28 and Poland 33.&lt;/p&gt;
+&lt;p&gt;Anyway It is cool that many public services have been made available online. I just wonder what the ranking would be if they considered security. It is relatively simple to push public services online,  but if these are not properly secured this can create more serious problems than the ones it solves.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

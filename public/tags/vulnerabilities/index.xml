@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Vulnerabilities on Ramos on Software</title>
+    <link>http://localhost:1313/tags/vulnerabilities/</link>
+    <description>Recent content in Vulnerabilities on Ramos on Software</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Feb 2018 13:23:10 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/vulnerabilities/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Bitcoin, Cryptocurrencies and Cryptomining</title>
+      <link>http://localhost:1313/posts/2018-02-27-about-bitcoin-cryptocurrencies-and-cryptomining/</link>
+      <pubDate>Tue, 27 Feb 2018 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2018-02-27-about-bitcoin-cryptocurrencies-and-cryptomining/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;The current cryptocurrency trend brings fresh challenges to security, and should be a concern even if you, like me don’t understand where’s the fun of Bitcoin and don’t care much about it.&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Cryptocurrencies were one of the greatest trends in 2017, in particular the crypto “star” Bitcoin that started the year around 1000$ and ended it well above 10000$. Although I really don’t find Bitcoin particularly interesting ( just go elsewhere if you are looking for investment tips – I’m not really good at it ) I think that the concept behind it, Blockchain, has potential and can be useful in a lot of different ways.&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Personal on Ramos on Software</title>
+    <link>http://localhost:1313/categories/personal/</link>
+    <description>Recent content in Personal on Ramos on Software</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Nov 2018 13:23:10 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/personal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>what goes online stays online ? yes 22 years latter</title>
+      <link>http://localhost:1313/posts/2018-11-01-22-years-online/</link>
+      <pubDate>Sun, 11 Nov 2018 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2018-11-01-22-years-online/</guid>
+      <description>&lt;p&gt;Thinking about the differences between life now and “before the internet” remind me that many years ago, just a bit after I’ve started to use the internet I’ve created a web site…is is true that &amp;ldquo;what goes online stays online&amp;rdquo; ?&lt;/p&gt;
+&lt;p&gt;At the time, defenitly during the late 90&amp;rsquo;s I’ve used [Geocities] (&lt;a href=&#34;https://en.wikipedia.org/wiki/Yahoo!_GeoCities&#34;&gt;https://en.wikipedia.org/wiki/Yahoo!_GeoCities&lt;/a&gt;) , a free hosting service at the time that eventually was bought by Yahoo.
+To have an online presence during the web early days mean that you would have to hack your own html static pages, get a crappy background and deploy it on Geocities. The portal was organized in a “neighbourhood” fashion, depending on the theme of your site you would pick the appropriate neighbourhood – at the time I was still a student and quite interested in game development, thus my site was about C++ game development using Microsoft Direct X that was kind of a new technology at the time.
+Geocities was closed in 2009, but I could find my “old” site in the [web achieve] (&lt;a href=&#34;https://web.archive.org/web/20000816161746/http://www.geocities.com/SiliconValley/Heights/3098/&#34;&gt;https://web.archive.org/web/20000816161746/http://www.geocities.com/SiliconValley/Heights/3098/&lt;/a&gt; )&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

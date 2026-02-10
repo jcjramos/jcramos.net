@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Agile on Ramos on Software</title>
+    <link>http://localhost:1313/tags/agile/</link>
+    <description>Recent content in Agile on Ramos on Software</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Feb 2021 13:23:10 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/agile/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beware of people telling you how to build a MVP !</title>
+      <link>http://localhost:1313/posts/2021-02-04-build-an-mvp/</link>
+      <pubDate>Thu, 04 Feb 2021 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2021-02-04-build-an-mvp/</guid>
+      <description>&lt;h2 id=&#34;there-is-a-way-of-being-wrong-which-is-also-sometimes-necessarily-right---edward-abbey&#34;&gt;“There is a way of being wrong which is also sometimes necessarily right.” - Edward Abbey&lt;/h2&gt;
+&lt;p&gt;MVP stands for minimum viable product, and it is a popular thing between Agile software developers. A MVP  is a version of a product with just enough features to be usable by early customers who can then provide feedback for future product development. Software developers typically deploy the product to a subset of possible customers to get feedback and be able to grasp a proper product vision. Then with the collected feedback they improve the product and create a more evolved MVP, tough several interactions until they get to a kind of “final” release.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The subtle art of saying no</title>
+      <link>http://localhost:1313/posts/2019-12-14-the-subtle-art-of-saying-no---copy/</link>
+      <pubDate>Tue, 24 Dec 2019 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2019-12-14-the-subtle-art-of-saying-no---copy/</guid>
+      <description>&lt;p&gt;I’ve been wondering a lot about the importance of saying no recently:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Personally I’ve been trying to focus on important things and say no to other stuff that ends up consuming a lot of energy but is not that relevant.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Professionally as a Product Owner I got to say no a lot ! actually I think the art to say no is one of the most important characteristics of a good PO.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>In the end it&#39;s all about the people</title>
+      <link>http://localhost:1313/posts/2019-11-30-its-all-about-the-people---copy/</link>
+      <pubDate>Sat, 30 Nov 2019 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2019-11-30-its-all-about-the-people---copy/</guid>
+      <description>&lt;p&gt;I really like this article I’ve read in Increment [The epistemology of software quality] ( &lt;a href=&#34;https://increment.com/teams/the-epistemology-of-software-quality/&#34;&gt;https://increment.com/teams/the-epistemology-of-software-quality/&lt;/a&gt; )&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Say you run a new team. You have carte blanche to implement any policies you want to make the team more productive and the code less buggy. What do you do? You could choose a new programming language, or switch everything to microservices, or follow the hottest trend in process. Or you could do things that matter. You could pace schedules. You could ensure that no one works more than eight hours a day. You could let people off 20 minutes early to avoid rush hour. You could make it as easy as possible for parents to take the day off when their kids are sick. You could make people feel like they’re important, because people are important. No method, tool, or language matters nearly as much as our own minds.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

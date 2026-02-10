@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Posts | Ramos on Software</title>
+<meta name="keywords" content="">
+<meta name="description" content="Posts - Ramos on Software">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/posts/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.a29c24210eb31d9ce56f669c66a35c9c51b17376b7764e336a49af7dec914cf0.css" integrity="sha256-opwkIQ6zHZzlb2acZqNcnFGxc3a3dk4zakmvfeyRTPA=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/posts/index.xml" title="rss">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body class="list" id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Ramos on Software (Alt + H)">Ramos on Software</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/contact/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header">
+  <h1>
+    Posts
+  </h1>
+</header>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">More About Helm - Tips
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Helm is one of the best tools available to simplify your kubernetes development. In this post I’ll be adding some tips that might help you in the development of your helm charts.
+Btw, you migth like to see this previous post and eventually [this one] (../2019-01-04-more-about-helm-values/)
+Tip 1 – Files in configmaps There are cases where you will need to move existing configuration files to config maps, a hard working solution is to just type in the whole file with the proper config map indentation. A more practical solution is to use helm .Files.Glob command. This command will map the content of files in a specific directory to your config map.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2019-01-21 13:23:10 +0100 +0100'>January 21, 2019</span></footer>
+  <a class="entry-link" aria-label="post link to More About Helm - Tips" href="http://localhost:1313/posts/2019-01-21-more-about-helm-tips/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">The logging triology - ELK Elasticsearch &#43; Logstash &#43; Kibana
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>One of the side effects of a microservices architecture is that checking logs soon becomes a problem. At the beginning of the process, when you think about containerizing an application, it seems simple and straightforward – you just log to stdout and docker or kubernetes handle it. But then …
+Where is my log ? The number of different services &amp; service instances rapidly explodes and then it becomes really difficult to find a particular log and to troubleshoot the misbehaviour of a micro-service. The solution is to add a log management application, something to store your logs and to allow you to search through them.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2019-01-08 13:23:10 +0100 +0100'>January 8, 2019</span></footer>
+  <a class="entry-link" aria-label="post link to The logging triology - ELK Elasticsearch &#43; Logstash &#43; Kibana" href="http://localhost:1313/posts/2019-01-08-the-log-triollogy/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">More About Helm - Values
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Manage deployments is a import concern when creating a microservices based application, given the typical huge number of services involved and the possible variations you need a way to keep complexity under control. Helm can be a usefull tool, besides been a very cool way to define dependencies ( see this previous post ), Helm introduces an interesting concept called values ( not quite original, but implemented in a nice way ). Values allows you to redefine parts your kubernetes yaml (*) files on deployment time, thus allowing more flexibility to your application and, if done right, simplify the deployment.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2019-01-04 13:23:10 +0100 +0100'>January 4, 2019</span></footer>
+  <a class="entry-link" aria-label="post link to More About Helm - Values" href="http://localhost:1313/posts/2019-01-04-more-about-helm-values/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">My favorite BuzzWords for 2018
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Techies love BuzzWords, every year there is new popular technology or concept that everyone talks about, soon these fall in to oblivion and are replaced by new trends. Not all the Buzzwords referrer to completely useless stuff, some concepts really got past the Buzz part and became really useful parts of our lives, but eventually people got tired to discuss them, or they became too common to be interesting ( I guess Blog was a buzzword a few years ago ).
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2018-12-21 13:23:10 +0100 +0100'>December 21, 2018</span></footer>
+  <a class="entry-link" aria-label="post link to My favorite BuzzWords for 2018" href="http://localhost:1313/posts/2018-12-21-favorite-buzzwords/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">About Helm
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Microservices are supposed to be small and dedicated, the issue when you move an application to a microservices based architecture is that you quickly get many of them. Dealing with each service individually becomes much easier as they get more “micro”, but deal with the whole bunch can be a nightmare. Look at the example bellow, in the 1st interaction of a typical application it became something like this :
+&#43;-------------------------&#43; &#43;-------------------------&#43; | typical-frontend | | typical-backend | | | | | &#43;-------------------------&#43; &#43;-------------------------&#43; &#43;-------------------------&#43; &#43;-------------------------&#43; | typical-database | | typical-interf | | | | | &#43;-------------------------&#43; &#43;-------------------------&#43; But then developers became more familiar with microservices, start splitting them in more specialized tasks and it became this :
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2018-12-19 13:23:10 +0100 +0100'>December 19, 2018</span></footer>
+  <a class="entry-link" aria-label="post link to About Helm" href="http://localhost:1313/posts/2018-12-19-about-helm/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Telco Software : Virtualization vs Cloudification
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Today I came across this very interesting article on The Economist regarding “Cloudification will mean upheaval in telecoms”, it’s kind of “old news” but make me think about the current trends in telco software development. From my experience telco industry was fast to virtualize but slot to cloudify. Virtualization and cloudification are often used with the same meaning but they are actually different concepts. Virtualization is mostly related to the optimization of hardware resources, running more software on a given amount of physical infrastructure. Cloud computing is a metaphor for a system that is based on a shared pool of configurable computer resources that can be provisioned over the internet, typically with minimal effort - public cloud services like Amazon AWS are highly automated, elastic/scalable and pay-as-you-go ( you just need a credit card ). Cloud computing makes use of virtualization to enable the elasticity and achieve economies of scale. For many years telco operators have been using virtualized solutions at the core of their networks, virtualization is expanding to more and network functions, in particular at the edge of the network.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2018-12-18 13:23:10 +0100 +0100'>December 18, 2018</span></footer>
+  <a class="entry-link" aria-label="post link to Telco Software : Virtualization vs Cloudification" href="http://localhost:1313/posts/2018-12-18-telco-software--virtualization-vs-cloudification/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">About not-so-microservices
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Sometimes, in particular when moving large legacy systems to a microservices architecture you came up with the dilemma, what to do about the not-so-microservices ? these are typically large monolith blocks from a bygone era. Developers are afraid of these, no one want’s to mess with them. But we live in a messy world with lot’s of IT infrastructure relying on old code – it is not possible to rewrite all the old code in a “container friendly” way. Thus what to do when you have to deal with a large service, that doesn’t seem to fit well on a microservices architecture ? My view is that, generally the best option is to containerize it anyway – likely you will end up with a very large container, but docker architecture and existing tools are flexible enough to handle most common challenges. In the end you’ll end up with a far from ideal system, but at least it will be a system where all the services are managed in a consistent way. The alternative, to have a part of the system outside the Kubernetes containerized platform is likely much worse in the long term.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2018-12-17 13:23:10 +0100 +0100'>December 17, 2018</span></footer>
+  <a class="entry-link" aria-label="post link to About not-so-microservices" href="http://localhost:1313/posts/2018-12-17-not-so-microservices/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">The Ingress triology
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Deploying http services in a Kubernetes cluster can be a bit challenging, although the basic principles are simple it is not always easy to manage all the details. Docker &amp; Kubernetes were designed with isolation in mind ( they are called containers for a reason ). You need to understand the Ingress triology properlly : Ingress -&gt; Service -&gt; Containers.
+The Container The fist step is to have the container running, inside the container there is a service running that accepts HTTP connections – let’s say tomcat running a webserver. The tricky part is that it is not enough to have the service running inside the container. Imagine that you ssh to the container and check the service, lile
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2018-12-14 13:23:10 +0100 +0100'>December 14, 2018</span></footer>
+  <a class="entry-link" aria-label="post link to The Ingress triology" href="http://localhost:1313/posts/2018-12-14-expose-kubernertes-services/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Developing Secure Applications
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Everyday there is a new story about a hacking incident somewhere, developing secure applications is definitely one of the most important challenges in the software world.
+A good analogy is the defence of a castle, in the medieval world castles were very important. In a anarchic world with many threads they were the centres of power and stability. But how to defend a castle from your enemy’s ? a well built castle in a high point was a clear advantage, will a relatively small force it could be defended against a much powerful enemy. But as a defended you had to make sure that you didn’t miss any spot, the enemy would look for weak points and you would have to make sure that you had none. Defences must be built and then continuously maintained and updated.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2018-11-19 13:23:10 +0100 +0100'>November 19, 2018</span></footer>
+  <a class="entry-link" aria-label="post link to Developing Secure Applications" href="http://localhost:1313/posts/2018-11-19-develop-secure-appls/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">what goes online stays online ? yes 22 years latter
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Thinking about the differences between life now and “before the internet” remind me that many years ago, just a bit after I’ve started to use the internet I’ve created a web site…is is true that “what goes online stays online” ?
+At the time, defenitly during the late 90’s I’ve used [Geocities] (https://en.wikipedia.org/wiki/Yahoo!_GeoCities) , a free hosting service at the time that eventually was bought by Yahoo. To have an online presence during the web early days mean that you would have to hack your own html static pages, get a crappy background and deploy it on Geocities. The portal was organized in a “neighbourhood” fashion, depending on the theme of your site you would pick the appropriate neighbourhood – at the time I was still a student and quite interested in game development, thus my site was about C&#43;&#43; game development using Microsoft Direct X that was kind of a new technology at the time. Geocities was closed in 2009, but I could find my “old” site in the [web achieve] (https://web.archive.org/web/20000816161746/http://www.geocities.com/SiliconValley/Heights/3098/ )
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2018-11-11 13:23:10 +0100 +0100'>November 11, 2018</span></footer>
+  <a class="entry-link" aria-label="post link to what goes online stays online ? yes 22 years latter" href="http://localhost:1313/posts/2018-11-01-22-years-online/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="http://localhost:1313/posts/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="http://localhost:1313/posts/page/3/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Ramos on Software</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

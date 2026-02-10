@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Telco on Ramos on Software</title>
+    <link>http://localhost:1313/categories/telco/</link>
+    <description>Recent content in Telco on Ramos on Software</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Sep 2019 13:23:10 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/telco/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Telco ML</title>
+      <link>http://localhost:1313/posts/2019-09-06-telco-ml-p1/</link>
+      <pubDate>Fri, 06 Sep 2019 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2019-09-06-telco-ml-p1/</guid>
+      <description>&lt;p&gt;While having some training on machine learning, I’ve been thinking in how it could be applied to telco software.&lt;/p&gt;
+&lt;p&gt;There is a huge array of equipment necessary to enable you to use your mobile phone with minimal issues, your operator has lots of radio equipment spread around that enables your phone to communicate with the network and a core network that enables the data to travel around ( this is of course a huge simplification ).
+Lot’s of equipment spread in larger areas means of course lot’s of problems, there are the obvious equipment malfunctions, there are power breakdowns and even more “unexpected” events like someone stealing a network antenna.
+Telco operators employ lot’s of people and use sophisticated software to ensure that their systems are functional, this is a growing challenge as more and more equipment is necessary to support newer network standards like 5G.
+Several functions of the Telco OSS systems, [ OSS meaning Operations Support System ] ( &lt;a href=&#34;https://en.wikipedia.org/wiki/Operations_support_system&#34;&gt;https://en.wikipedia.org/wiki/Operations_support_system&lt;/a&gt; ) not Open Source Software, involve something like :&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Telco Software : Virtualization vs Cloudification</title>
+      <link>http://localhost:1313/posts/2018-12-18-telco-software--virtualization-vs-cloudification/</link>
+      <pubDate>Tue, 18 Dec 2018 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2018-12-18-telco-software--virtualization-vs-cloudification/</guid>
+      <description>&lt;p&gt;Today I came across this very interesting article on &lt;a href=&#34;https://www.economist.com/business/2017/04/12/cloudification-will-mean-upheaval-in-telecoms&#34;&gt;The Economist&lt;/a&gt; regarding “Cloudification will mean upheaval in telecoms”, it’s kind of “old news” but make me think about the current trends in telco software development.
+From my experience telco industry was fast to virtualize but slot to cloudify. Virtualization and cloudification are often used with the same meaning but they are actually different concepts. Virtualization is mostly related to the optimization of hardware resources, running more software on a given amount of physical infrastructure. Cloud computing is  a metaphor for a system that is based on a shared pool of configurable computer resources that can be provisioned over the internet, typically with minimal effort - public cloud services like Amazon AWS are highly automated, elastic/scalable and pay-as-you-go ( you just need a credit card ). Cloud computing makes use of virtualization to enable the elasticity and achieve economies of scale.
+For many years telco operators have been using virtualized solutions at the core of their networks, virtualization is expanding to more and network functions, in particular at the edge of the network.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

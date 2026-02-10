@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Software on Ramos on Software</title>
+    <link>http://localhost:1313/categories/software/</link>
+    <description>Recent content in Software on Ramos on Software</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Feb 2026 20:44:45 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Natural End of Software Development: Speaking English</title>
+      <link>http://localhost:1313/posts/2026-02-06-the-natural-end-of-sw/</link>
+      <pubDate>Fri, 06 Feb 2026 20:44:45 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2026-02-06-the-natural-end-of-sw/</guid>
+      <description>&lt;p&gt;The Natural End of Software Development: Speaking English&lt;/p&gt;
+&lt;p&gt;Lately, my feed is full of panic about AI &amp;ldquo;replacing&amp;rdquo; software developers. The narrative is always the same: “If a machine can write the code, why do they need us?”
+This fear stems from a misunderstanding of what we’ve actually been doing for the last 70 years. We weren&amp;rsquo;t hired to be &amp;ldquo;syntax experts&amp;rdquo;; we were hired to be translators.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The History of Compression&lt;/strong&gt;
+Software development has always been a game of reducing the friction between a human thought and a machine&amp;rsquo;s execution. We’ve just been climbing a ladder of abstraction:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ruminations on the post pandemic IT industry in Portugal</title>
+      <link>http://localhost:1313/posts/2021-03-29-portuguese-it/</link>
+      <pubDate>Tue, 23 Mar 2021 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2021-03-29-portuguese-it/</guid>
+      <description>&lt;p&gt;In the recent decades the business model for the IT industry in Portugal was mostly a nearshoring model, much of the industry profits from the difference between IT salaries in Portugal vs central Europe. Knowing that the average salary in Portugal is roughly 50% lower than Germany and it’s just 1h time difference, it’s easy to understand that this can be a very lucrative model.&lt;/p&gt;
+&lt;p&gt;Things start to change during the Portuguese debt crisis during the early 2010’s, due to the dim opportunities at home many Portuguese youngsters moved to other European countries – moving abroad was particularly easy for the “IT crowd” given that their skills were in high demand abroad and usually it’s not a job requirement to know any other language besides English.  This together with the fact that Portugal is a member of the EU and people can basically just decide to move other country and work there without much hassle.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Beware of people telling you how to build a MVP !</title>
+      <link>http://localhost:1313/posts/2021-02-04-build-an-mvp/</link>
+      <pubDate>Thu, 04 Feb 2021 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2021-02-04-build-an-mvp/</guid>
+      <description>&lt;h2 id=&#34;there-is-a-way-of-being-wrong-which-is-also-sometimes-necessarily-right---edward-abbey&#34;&gt;“There is a way of being wrong which is also sometimes necessarily right.” - Edward Abbey&lt;/h2&gt;
+&lt;p&gt;MVP stands for minimum viable product, and it is a popular thing between Agile software developers. A MVP  is a version of a product with just enough features to be usable by early customers who can then provide feedback for future product development. Software developers typically deploy the product to a subset of possible customers to get feedback and be able to grasp a proper product vision. Then with the collected feedback they improve the product and create a more evolved MVP, tough several interactions until they get to a kind of “final” release.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>In the end it&#39;s all about the people</title>
+      <link>http://localhost:1313/posts/2019-11-30-its-all-about-the-people---copy/</link>
+      <pubDate>Sat, 30 Nov 2019 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2019-11-30-its-all-about-the-people---copy/</guid>
+      <description>&lt;p&gt;I really like this article I’ve read in Increment [The epistemology of software quality] ( &lt;a href=&#34;https://increment.com/teams/the-epistemology-of-software-quality/&#34;&gt;https://increment.com/teams/the-epistemology-of-software-quality/&lt;/a&gt; )&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Say you run a new team. You have carte blanche to implement any policies you want to make the team more productive and the code less buggy. What do you do? You could choose a new programming language, or switch everything to microservices, or follow the hottest trend in process. Or you could do things that matter. You could pace schedules. You could ensure that no one works more than eight hours a day. You could let people off 20 minutes early to avoid rush hour. You could make it as easy as possible for parents to take the day off when their kids are sick. You could make people feel like they’re important, because people are important. No method, tool, or language matters nearly as much as our own minds.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Continuous Everything</title>
+      <link>http://localhost:1313/posts/2019-08-27-continuous-everything/</link>
+      <pubDate>Tue, 27 Aug 2019 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2019-08-27-continuous-everything/</guid>
+      <description>&lt;p&gt;I’ve found out this week that the famous &lt;a href=&#34;https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/&#34;&gt;Joel test&lt;/a&gt; reached 19 years of age this month, besides reminding me how old I’m getting  it reminded me of the importance of proper CI/CD - [Continuous Integration] (&lt;a href=&#34;https://en.wikipedia.org/wiki/Continuous_integration&#34;&gt;https://en.wikipedia.org/wiki/Continuous_integration&lt;/a&gt;) / [Continuous Delivery] (&lt;a href=&#34;https://en.wikipedia.org/wiki/Continuous_delivery&#34;&gt;https://en.wikipedia.org/wiki/Continuous_delivery&lt;/a&gt;) pipelines in software development.&lt;/p&gt;
+&lt;p&gt;At the time I’ve came across “Joel Test”, found that comply with rule number 2 migth be a good thing and I’ve tried to create a simple build script that would emulate a kind of basic CI pipe – at the time I was working on a application composed of a set of components based on Win32 DLL’s+EXE; my CI script would compile the necessary DLL’s, join them in a directory and check if it run. Seems and it’s quite basic but it was really helpful, you would be surprised by how many times things got messed up, &lt;a href=&#34;https://en.wikipedia.org/wiki/Dependency_hell&#34;&gt;Dependency_hell&lt;/a&gt; Someone ? , I was convinced how valuable was this early feedback tool, thus have been a fan of CI/CD for the rest and most part of my professional live.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ruminations about programming languages </title>
+      <link>http://localhost:1313/posts/2019-04-12-ruminations_about_programming_languages/</link>
+      <pubDate>Fri, 12 Apr 2019 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2019-04-12-ruminations_about_programming_languages/</guid>
+      <description>&lt;p&gt;Today I’ve come across a post in Quora about the “end of Java”, kind of funny these doomsday predictions regarding programming languages.&lt;/p&gt;
+&lt;p&gt;I’ve starting to learn programming somewhere around the late 80’s when I was a kid, at the time I’ve learn basic … it was the most common language for kids who owned “PC’s” with 48k of memory. Basic programs tended to be quite difficult to read and one thing that you learn from experience ( sometimes the hard way ) is that it is generally much difficult to maintain and evolve computer software than to initially write it, thus putting effort in to make it clean and adaptable pays off.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dependency Hell v2019 </title>
+      <link>http://localhost:1313/posts/2019-02-04-dependency-hell-v2019/</link>
+      <pubDate>Mon, 04 Feb 2019 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2019-02-04-dependency-hell-v2019/</guid>
+      <description>&lt;p&gt;A recent problem that one of the teams I work with faced, related to a major DB vendor and a set of different incompatible patches remind me of the 90’s. During the late 90’s I’ve worked for a Windows shop that developed a huge DLL based application, taking care of dependencies was a nightmare…early MS win 95 versions didn’t include any good mechanism to track DLL versions, also initially this was not a major concern when developing our application, but we end up creating a lot of DLLs and with additional dependencies from SO and 3rd party DLL’s, so I know fist hand what “DLL hell” means. By the way the term “dependency hell “ is a common software problem that has the honor of it’s own &lt;a href=&#34;https://en.wikipedia.org/wiki/Dependency_hell&#34;&gt;Wikipedia entry&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DST and Software</title>
+      <link>http://localhost:1313/posts/2018-03-26-dst-and-software/</link>
+      <pubDate>Mon, 26 Mar 2018 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2018-03-26-dst-and-software/</guid>
+      <description>&lt;p&gt;Last weekend was a 47 hour oddity; across Europe it is like this every last weekend of March due to the annual DST change to “Summer Hour”. It is annoying but I know if could be worse, at least these changes are unified and regulated, thus all the counties that are part of the EU &amp;ldquo;unified clock regime&amp;rdquo; make the change in the same day.&lt;/p&gt;
+&lt;p&gt;These changes tend to remind me of years ago when I’ve worked in a software that processed Television audiences, what to do with the GAP when the clock jumps from SAT 1:00 AM to SAT 2:00 AM ? in our case we have decided to “duplicate” the 0:00 to 1:00 period, but a dedicated routine was written in C++ to handle it. Not actually an easy task…jumping time doesn’t make life easy for software developers, in particular if the software somehow relates to continuous time related data.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

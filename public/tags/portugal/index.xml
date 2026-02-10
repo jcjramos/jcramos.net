@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Portugal on Ramos on Software</title>
+    <link>http://localhost:1313/tags/portugal/</link>
+    <description>Recent content in Portugal on Ramos on Software</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 Mar 2021 13:23:10 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/portugal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ruminations on the post pandemic IT industry in Portugal</title>
+      <link>http://localhost:1313/posts/2021-03-29-portuguese-it/</link>
+      <pubDate>Tue, 23 Mar 2021 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2021-03-29-portuguese-it/</guid>
+      <description>&lt;p&gt;In the recent decades the business model for the IT industry in Portugal was mostly a nearshoring model, much of the industry profits from the difference between IT salaries in Portugal vs central Europe. Knowing that the average salary in Portugal is roughly 50% lower than Germany and it’s just 1h time difference, it’s easy to understand that this can be a very lucrative model.&lt;/p&gt;
+&lt;p&gt;Things start to change during the Portuguese debt crisis during the early 2010’s, due to the dim opportunities at home many Portuguese youngsters moved to other European countries – moving abroad was particularly easy for the “IT crowd” given that their skills were in high demand abroad and usually it’s not a job requirement to know any other language besides English.  This together with the fact that Portugal is a member of the EU and people can basically just decide to move other country and work there without much hassle.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

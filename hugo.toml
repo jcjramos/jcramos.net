@@ -1,0 +1,10 @@
+baseURL = 'https://jcramos.net/'
+languageCode = 'en-us'
+title = 'Ramos on Software'
+theme = "PaperMod"
+
+[menu]
+ [[menu.main]]
+    name = "About"
+    pageRef = "/about"
+    weight = 10

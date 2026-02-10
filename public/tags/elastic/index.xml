@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Elastic on Ramos on Software</title>
+    <link>http://localhost:1313/tags/elastic/</link>
+    <description>Recent content in Elastic on Ramos on Software</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 08 Jan 2019 13:23:10 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/elastic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The logging triology - ELK Elasticsearch &#43; Logstash &#43; Kibana</title>
+      <link>http://localhost:1313/posts/2019-01-08-the-log-triollogy/</link>
+      <pubDate>Tue, 08 Jan 2019 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2019-01-08-the-log-triollogy/</guid>
+      <description>&lt;p&gt;One of the side effects of a microservices architecture is that checking logs soon becomes a problem. At the beginning of the process, when you think about containerizing an application, it seems simple and straightforward – you just log to stdout and docker or kubernetes handle it. But then &amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;where-is-my-log-&#34;&gt;Where is my log ?&lt;/h2&gt;
+&lt;p&gt;The number of different services &amp;amp; service instances rapidly explodes and then it becomes really difficult to find a particular log and to troubleshoot the misbehaviour of a micro-service. The solution is to add a log management application, something to store your logs and to allow you to search through them.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ransomware on Ramos on Software</title>
+    <link>http://localhost:1313/categories/ransomware/</link>
+    <description>Recent content in Ransomware on Ramos on Software</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Aug 2018 13:23:10 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/ransomware/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The new normal ?</title>
+      <link>http://localhost:1313/posts/2018-08-17-165/</link>
+      <pubDate>Fri, 17 Aug 2018 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2018-08-17-165/</guid>
+      <description>&lt;p&gt;Last week, CUF hospital, one of the biggest Portuguese private hospitals was attacked by ransomware, &lt;!-- raw HTML omitted --&gt;you can read about it here if you can read Portuguese&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;
+&lt;p&gt;seems that the  the SamSam ransomware was used, likely by the same grupo that &lt;!-- raw HTML omitted --&gt;has been targeting hospitals around the globe&lt;!-- raw HTML omitted --&gt; .&lt;/p&gt;
+&lt;p&gt;There are not many details available, the Hospital claims that “Everything is normal”, but apparently  some exams were lost, likely encrypted by the ransomware, as they refused to pay for the ransom. In particular it is not known how the hackers were able to get in to the system.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

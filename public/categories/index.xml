@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Categories on Ramos on Software</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on Ramos on Software</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Feb 2026 20:44:45 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI</title>
+      <link>http://localhost:1313/categories/ai/</link>
+      <pubDate>Fri, 06 Feb 2026 20:44:45 +0000</pubDate>
+      <guid>http://localhost:1313/categories/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software</title>
+      <link>http://localhost:1313/categories/software/</link>
+      <pubDate>Fri, 06 Feb 2026 20:44:45 +0000</pubDate>
+      <guid>http://localhost:1313/categories/software/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Microservices</title>
+      <link>http://localhost:1313/categories/microservices/</link>
+      <pubDate>Mon, 27 Jan 2020 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/categories/microservices/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Product</title>
+      <link>http://localhost:1313/categories/product/</link>
+      <pubDate>Tue, 24 Dec 2019 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/categories/product/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Telco</title>
+      <link>http://localhost:1313/categories/telco/</link>
+      <pubDate>Fri, 06 Sep 2019 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/categories/telco/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Trends</title>
+      <link>http://localhost:1313/categories/trends/</link>
+      <pubDate>Fri, 21 Dec 2018 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/categories/trends/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>http://localhost:1313/categories/security/</link>
+      <pubDate>Mon, 19 Nov 2018 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/categories/security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Personal</title>
+      <link>http://localhost:1313/categories/personal/</link>
+      <pubDate>Sun, 11 Nov 2018 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/categories/personal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Current Trends</title>
+      <link>http://localhost:1313/categories/current-trends/</link>
+      <pubDate>Fri, 12 Oct 2018 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/categories/current-trends/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>E-Government</title>
+      <link>http://localhost:1313/categories/e-government/</link>
+      <pubDate>Fri, 24 Aug 2018 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/categories/e-government/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Public</title>
+      <link>http://localhost:1313/categories/public/</link>
+      <pubDate>Fri, 24 Aug 2018 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/categories/public/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vulnerabilities</title>
+      <link>http://localhost:1313/categories/vulnerabilities/</link>
+      <pubDate>Fri, 24 Aug 2018 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/categories/vulnerabilities/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ransomware</title>
+      <link>http://localhost:1313/categories/ransomware/</link>
+      <pubDate>Fri, 17 Aug 2018 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/categories/ransomware/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GDPR</title>
+      <link>http://localhost:1313/categories/gdpr/</link>
+      <pubDate>Mon, 30 Apr 2018 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/categories/gdpr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Facebook</title>
+      <link>http://localhost:1313/categories/facebook/</link>
+      <pubDate>Tue, 27 Mar 2018 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/categories/facebook/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>News</title>
+      <link>http://localhost:1313/categories/news/</link>
+      <pubDate>Tue, 27 Mar 2018 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/categories/news/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DST</title>
+      <link>http://localhost:1313/categories/dst/</link>
+      <pubDate>Mon, 26 Mar 2018 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/categories/dst/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tips</title>
+      <link>http://localhost:1313/categories/tips/</link>
+      <pubDate>Fri, 09 Mar 2018 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/categories/tips/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Privacy</title>
+      <link>http://localhost:1313/categories/privacy/</link>
+      <pubDate>Tue, 06 Mar 2018 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/categories/privacy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Public Services</title>
+      <link>http://localhost:1313/categories/public-services/</link>
+      <pubDate>Tue, 06 Mar 2018 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/categories/public-services/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

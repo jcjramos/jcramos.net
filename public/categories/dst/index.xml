@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>DST on Ramos on Software</title>
+    <link>http://localhost:1313/categories/dst/</link>
+    <description>Recent content in DST on Ramos on Software</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 26 Mar 2018 13:23:10 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/dst/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DST and Software</title>
+      <link>http://localhost:1313/posts/2018-03-26-dst-and-software/</link>
+      <pubDate>Mon, 26 Mar 2018 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2018-03-26-dst-and-software/</guid>
+      <description>&lt;p&gt;Last weekend was a 47 hour oddity; across Europe it is like this every last weekend of March due to the annual DST change to “Summer Hour”. It is annoying but I know if could be worse, at least these changes are unified and regulated, thus all the counties that are part of the EU &amp;ldquo;unified clock regime&amp;rdquo; make the change in the same day.&lt;/p&gt;
+&lt;p&gt;These changes tend to remind me of years ago when I’ve worked in a software that processed Television audiences, what to do with the GAP when the clock jumps from SAT 1:00 AM to SAT 2:00 AM ? in our case we have decided to “duplicate” the 0:00 to 1:00 period, but a dedicated routine was written in C++ to handle it. Not actually an easy task…jumping time doesn’t make life easy for software developers, in particular if the software somehow relates to continuous time related data.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

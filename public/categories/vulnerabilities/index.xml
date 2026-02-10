@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Vulnerabilities on Ramos on Software</title>
+    <link>http://localhost:1313/categories/vulnerabilities/</link>
+    <description>Recent content in Vulnerabilities on Ramos on Software</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Aug 2018 13:23:10 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/vulnerabilities/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>E-Nightmare</title>
+      <link>http://localhost:1313/posts/2018-08-24-e-nightmare/</link>
+      <pubDate>Fri, 24 Aug 2018 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2018-08-24-e-nightmare/</guid>
+      <description>&lt;p&gt;“E-Government” has been quite a trendy buzzword all around Europe, according to the UN E-Government survey Portugal &lt;!-- raw HTML omitted --&gt;ranks 29 in worldwide E-Government services&lt;!-- raw HTML omitted --&gt; which is not great but not too bad either. For sake of comparison number 1 is Denmark, Belgium is 28 and Poland 33.&lt;/p&gt;
+&lt;p&gt;Anyway It is cool that many public services have been made available online. I just wonder what the ranking would be if they considered security. It is relatively simple to push public services online,  but if these are not properly secured this can create more serious problems than the ones it solves.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The new normal ?</title>
+      <link>http://localhost:1313/posts/2018-08-17-165/</link>
+      <pubDate>Fri, 17 Aug 2018 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2018-08-17-165/</guid>
+      <description>&lt;p&gt;Last week, CUF hospital, one of the biggest Portuguese private hospitals was attacked by ransomware, &lt;!-- raw HTML omitted --&gt;you can read about it here if you can read Portuguese&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;
+&lt;p&gt;seems that the  the SamSam ransomware was used, likely by the same grupo that &lt;!-- raw HTML omitted --&gt;has been targeting hospitals around the globe&lt;!-- raw HTML omitted --&gt; .&lt;/p&gt;
+&lt;p&gt;There are not many details available, the Hospital claims that “Everything is normal”, but apparently  some exams were lost, likely encrypted by the ransomware, as they refused to pay for the ransom. In particular it is not known how the hackers were able to get in to the system.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How do I know if a particular Web site is secure ? HTTP vs HTTPs</title>
+      <link>http://localhost:1313/posts/2018-03-09-how-do-i-know-if-a-particular-web-site-is-secure-part-1-http-vs-https/</link>
+      <pubDate>Fri, 09 Mar 2018 13:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2018-03-09-how-do-i-know-if-a-particular-web-site-is-secure-part-1-http-vs-https/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;The short answer is you don’t know … there is no simple ways to check, web infrastructure these days is complex and there is no public reporting of security practices used or even testing reports. The web owner can ( and will if they care about security ) use some kind of vulnerability testing, but it’s actually not nice to test 3rd party sites for vulnerabilities and generally people don’t make these public.&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
