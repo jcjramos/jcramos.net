@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "From Nokia’s Sprints to the AI Swarm"
-date: 2026-02-12T13:23:10+01:00
+date: 2026-02-20T13:23:10+01:00
 author: jcarlosr
 comments: true
 tags: ["ai","nokia","agile"]
 categories: ["ai"]
 ---
 
-The "Nokia Test" and the Golden Age of Scrum The last post, [The Death of the Agile Industrial Complex: A Full Circle](./2026-02-16-agile-is-dead.md), made me nostalgic for 2008. At the time, I was at Nokia (NSN), and the company made a massive pivot to Scrum. We even had Jeff Sutherland, the inventor of the ["Nokia Test"](https://jeffsutherland.com/nokiatest.pdf), guiding us.  
+The "Nokia Test" and the Golden Age of Scrum The last post, [The Death of the Agile Industrial Complex: A Full Circle](../2026-02-16-agile-is-dead.md), made me nostalgic for 2008. At the time, I was at Nokia (NSN), and the company made a massive pivot to Scrum. We even had Jeff Sutherland, the inventor of the ["Nokia Test"](https://jeffsutherland.com/nokiatest.pdf), guiding us.  
 Transitioning from waterfall to Scrum was challenging, but the impact was undeniable. My team’s score on the Nokia Test jumped from a 3/10 to a 9/10 in just a few months. In that era of massive 4G telco transformations, Scrum wasn't just a framework; it was a lifeline that helped huge teams navigate immense complexity. I truly liked it—it brought a human spirit back to software development.  
 ## The Bridge to 2026: 
 Why the Math Has Changed However, looking back from 2026, I realize that the very ceremonies that saved us at Nokia are becoming the "dead weight" I described in my previous post. As I noted in Ceremonies are for Humans (and Agents don't care), we met every morning because we didn't know what our colleagues were doing. But in a world of Agentic Swarms, information is ambient.  
