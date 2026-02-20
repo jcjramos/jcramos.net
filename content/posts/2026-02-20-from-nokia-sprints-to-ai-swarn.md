@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "From Nokia’s Sprints to the AI Swarm"
-date: 2026-02-20T13:23:10+01:00
+date: 2026-02-19T13:23:10+01:00
 author: jcarlosr
 comments: true
 tags: ["ai","nokia","agile"]
