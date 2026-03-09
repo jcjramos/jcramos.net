@@ -12,11 +12,11 @@ I recently had a conversation with a colleague that highlighted the widening "pe
 The epiphany for my colleague didn't come from the AI writing code—we’ve seen that movie before. It came when he asked the AI to perform a peer review on another developer's PR. The AI didn't just find syntax errors; it provided a more nuanced, architectural critique of the logic than he had prepared himself.
 When the tool begins to exhibit better systemic judgment than the builder, we have to acknowledge that the nature of our craft has fundamentally shifted.
 ### The Supervisor Era
-I previously wrote about (The Junior Bottleneck)[../2026-02-28-the-junior-botllneck-and-ai], arguing that AI is hollowing out the entry-level tier of software engineering. This recent experience validates that concern. If an LLM can perform higher-level code reviews and logic validation better than a human peer, the "Human-in-the-loop" model isn't just a safety net—it’s an evolution.
+I previously wrote about [The Junior Bottleneck](../2026-02-28-the-junior-botllneck-and-ai), arguing that AI is hollowing out the entry-level tier of software engineering. This recent experience validates that concern. If an LLM can perform higher-level code reviews and logic validation better than a human peer, the "Human-in-the-loop" model isn't just a safety net—it’s an evolution.
 For the coming years( decades? ), the job isn't going away, but it is changing from writing software to supervising its generation. We are moving from the role of the artisan to the role of the lead architect who validates the output of an incredibly fast, highly competent, but occasionally hallucinating workforce.
 
 ### Why Software is the Canary in the Coal Mine
-This shift feels eerily similar to what I discussed in (Looks like 2000](../2026-02-12-looks-like-2000). Just as the dot-com crash didn't kill the internet but instead matured it, we are seeing a massive recalibration of what "value" looks like in tech.
+This shift feels eerily similar to what I discussed in [Looks like 2000](../2026-02-12-looks-like-2000). Just as the dot-com crash didn't kill the internet but instead matured it, we are seeing a massive recalibration of what "value" looks like in tech.
 Software is the first target for this automation because it is the most well-documented craft in existence. We built the AI using the very repositories and documentation we’ve spent thirty years perfecting. We effectively gave the machines the ultimate training manual for our own jobs. If AI can solve the abstract complexity of software, it can (and will) solve the complexities of most other white-collar industries.
 
 ### The "AI Luddite" Fallacy
