@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Saturday Sprint: Building a Book Tracker with AI"
-date: 2026-03-17T13:23:10+01:00
+date: 2026-03-17T10:23:10+01:00
 author: jcramos
 comments: true
 tags: ["ai","nokia","agile"]
