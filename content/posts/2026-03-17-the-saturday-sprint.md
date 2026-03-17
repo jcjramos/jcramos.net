@@ -4,7 +4,7 @@ title: "The Saturday Sprint: Building a Book Tracker with AI"
 date: 2026-03-17T13:23:10+01:00
 author: jcramos
 comments: true
-tags: ["software","ai"]
+tags: ["ai","nokia","agile"]
 categories: ["ai"]
 ---
 
