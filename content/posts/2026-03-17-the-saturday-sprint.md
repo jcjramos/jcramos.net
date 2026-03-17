@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Saturday Sprint: Building a Book Tracker with A"
+title: "The Saturday Sprint: Building a Book Tracker with AI"
 date: 2026-03-17T13:23:10+01:00
 author: jcramos
 comments: true
